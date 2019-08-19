@@ -10,7 +10,8 @@ function ColorSelector({
   return (
     <>
       <span>Text Color:</span>
-      <input 
+      <input
+        style={{ marginRight: '10px', marginLeft: '10px' }} 
         name='textColor' 
         value={textColor} 
         type='color' 
@@ -18,6 +19,7 @@ function ColorSelector({
       />
       <span>Background Color:</span>
       <input 
+        style={{ marginRight: '10px', marginLeft: '10px' }}
         name='backgroundColor' 
         value={backgroundColor} 
         type='color' 

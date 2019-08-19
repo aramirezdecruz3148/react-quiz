@@ -5,6 +5,7 @@ function TextSelector({ text, onTextChange }) {
   return (
   <>  
     <input 
+      style={{ marginRight: '10px', marginLeft: '10px' }} 
       type='text' 
       name='text'
       placeholder='Name' 
