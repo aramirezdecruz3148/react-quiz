@@ -8,6 +8,12 @@ exports[`ColorSelector component renders ColorSelector 1`] = `
   <input
     name="textColor"
     onChange={[Function]}
+    style={
+      Object {
+        "marginLeft": "10px",
+        "marginRight": "10px",
+      }
+    }
     type="color"
     value="testing2"
   />
@@ -17,6 +23,12 @@ exports[`ColorSelector component renders ColorSelector 1`] = `
   <input
     name="backgroundColor"
     onChange={[Function]}
+    style={
+      Object {
+        "marginLeft": "10px",
+        "marginRight": "10px",
+      }
+    }
     type="color"
     value="testing"
   />

@@ -6,6 +6,12 @@ exports[`TextSelector component renders TextSelector 1`] = `
     name="text"
     onChange={[Function]}
     placeholder="Name"
+    style={
+      Object {
+        "marginLeft": "10px",
+        "marginRight": "10px",
+      }
+    }
     type="text"
     value="testing"
   />
