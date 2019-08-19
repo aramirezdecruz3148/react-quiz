@@ -4,7 +4,12 @@ import PropTypes from 'prop-types';
 function TextSelector({ text, onTextChange }) {
   return (
   <>  
-    <input type='text' name='text' value={text} onChange={onTextChange} />
+    <input 
+      type='text' 
+      name='text'
+      placeholder='Name' 
+      value={text} 
+      onChange={onTextChange} />
   </>
   );
 }

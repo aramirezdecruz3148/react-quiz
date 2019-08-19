@@ -10,7 +10,11 @@ export default class NameTag extends Component {
     textColor: '',
   }
   onInputChange = ({ target }) => {
-    this.setState({ [target.name]: target.value, [target.name]: target.value, [target.name]: target.value });
+    this.setState({ 
+      [target.name]: target.value, 
+      [target.name]: target.value, 
+      [target.name]: target.value 
+    });
   }
 
   render() {

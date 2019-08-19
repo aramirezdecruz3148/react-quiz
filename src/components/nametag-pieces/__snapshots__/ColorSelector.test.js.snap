@@ -2,12 +2,18 @@
 
 exports[`ColorSelector component renders ColorSelector 1`] = `
 <Fragment>
+  <span>
+    Text Color:
+  </span>
   <input
     name="textColor"
     onChange={[Function]}
     type="color"
     value="testing2"
   />
+  <span>
+    Background Color:
+  </span>
   <input
     name="backgroundColor"
     onChange={[Function]}
